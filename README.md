@@ -18,7 +18,9 @@
 
 这是一个 LL(1) 语法分析器。它只在本次实验题目给定的算术表达式文法上进行了测试。
 
-## 运行
+## 构建和运行
+
+可以使用 CMake 和提供的 CMakeLists.txt 进行构建，也可以直接编译并链接 `src/` 目录下的所有 `.cpp` 文件。
 
 构建后直接运行，根据提示向 stdin 输入算术表达式，并查看 stdout 的输出。
 
@@ -35,4 +37,4 @@
 
 ## 参见
 
-- [ExParserR]()（link temporarily absent）：一个 LR(1) 语法分析器。
+- [ExParserR](https://github.com/ArtveFlinaInBupt/ExParserR)：一个 LR(1) 语法分析器。
